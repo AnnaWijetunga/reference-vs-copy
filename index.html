@@ -85,7 +85,11 @@
     // we made a reference to the original, not a copy - can't do this.
 
     // how do we take a copy instead?
-    
+    const cap2 = Object.assign({}, person, { number: 99 });
+    console.log(cap2);
+    // captain will be updated
+    // fold in all properties and values
+    // fold in our own ones
 
     // We will hopefully soon see the object ...spread
 
