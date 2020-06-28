@@ -60,6 +60,14 @@
     const team3 = [].concat(players);
 
     // or use the new ES6 Spread
+    const team4 = [...players];
+    team4[3] = 'hee haw';
+    console.log(team4);
+
+    const team5 = Array.from(players);
+
+    // spread into that array
+    // take items out of iterable and plop it into a new array
 
     // now when we update it, the original one isn't changed
 
